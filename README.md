@@ -10,16 +10,16 @@ This repository contains our final submission for the **Womanium WISER 2025 Prog
 
 We solve the **1D Burgers’ equation**:
 
-\[
+$$
 \partial_t u + u \partial_x u = \nu \partial^2_x u, \quad x \in [0, 1], \quad t \in [0, 0.01]
-\]
+$$
 
 with:
 - Boundary conditions:  
-  \[ u(0, t) = 1, \quad u(1, t) = 0 \]
+  $$ u(0, t) = 1, \quad u(1, t) = 0 $$
 - Initial condition (smooth):  
-  \[ u(x, 0) = \sin(\pi x) \]  
-  *(Note: Step function initial condition \( u(x,0)=1 \text{ for } x<0.5, \, 0 \text{ otherwise} \) is specified in the challenge but smoothed here for better numerical performance)*
+  $$ u(x, 0) = \sin(\pi x) $$  
+  *(Note: Step function initial condition $( u(x,0)=1 \text{ for } x<0.5, $, 0 \text{ otherwise} \) is specified in the challenge but smoothed here for better numerical performance)*
   
 ## 🔬 Methodology
 
@@ -27,29 +27,29 @@ We employ a **hybrid quantum-classical framework** that transforms the nonlinear
 
 ###  1. Cole–Hopf Transform  
 Linearizes Burgers’ equation to a **diffusion (heat) equation** using:
-\[
+$$
 u(x,t) = -2\nu \frac{\partial_x \psi}{\psi}
-\]
-\[
+$$
+$$
 \Rightarrow \partial_t \psi = \nu \partial^2_x \psi
-\]
+$$
 
 ### 2. Quantum Simulation via Trotterization  
 We discretize the heat equation and simulate it quantumly:
 - **Laplacian Hamiltonian \( H = -i\nu L \)** created from finite differences
 - **Trotterized time evolution**:
-  \[
+  $$
   e^{-iHt} \approx \prod_i R_{XX}^{(i, i+1)}(\theta)
-  \]
+  $$
 - Implemented using **Qiskit** with 4 qubits (for 16 grid points)
 
 ### 3. Zero-Noise Extrapolation (ZNE)  
 To mitigate quantum noise:
 - Simulate circuits at **scales 1 and 3**
 - Perform extrapolation:
-  \[
+  $$
   u_{\text{ZNE}} = 1.5 \cdot u_{1} - 0.5 \cdot u_{3}
-  \]
+  $$
 
 ### 4. Classical Benchmarks  
 Validated results against:  
