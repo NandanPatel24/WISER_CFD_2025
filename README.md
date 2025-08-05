@@ -40,25 +40,21 @@ Linearizes Burgers’ equation to a **diffusion (heat) equation** using:
 
 $$
 u(x,t) = -2\nu \frac{\partial_x \psi}{\psi}
-\Rightarrow \partial_t \psi = \nu \ \partial_x^2 \psi
+\Rightarrow \partial_t \psi = \nu \\partial_x^2 \psi
 $$
 
 ### 2. Quantum Simulation via Trotterization  
 We discretize the heat equation and simulate it quantumly:
-- **Laplacian Hamiltonian \( H = -i\nu L \)** created from finite differences
+- **Laplacian Hamiltonian $\( H = -i\nu L \)$** created from finite differences
 - **Trotterized time evolution**:
-  $$
-  e^{-iHt} \approx \prod_i R_{XX}^{(i, i+1)}(\theta)
-  $$
+  $e^{-iHt} \approx \prod_i R_{XX}^{(i, i+1)}(\theta)$
 - Implemented using **Qiskit** with 4 qubits (for 16 grid points)
 
 ### 3. Zero-Noise Extrapolation (ZNE)  
 To mitigate quantum noise:
 - Simulate circuits at **scales 1 and 3**
 - Perform extrapolation:
-  $$
-  u_{\text{ZNE}} = 1.5 \cdot u_{1} - 0.5 \cdot u_{3}
-  $$
+  $u_{\text{ZNE}} = 1.5 \cdot u_{1} - 0.5 \cdot u_{3}$
 
 ### 4. Classical Benchmarks  
 Validated results against:  
