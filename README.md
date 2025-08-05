@@ -69,8 +69,8 @@ We validate quantum simulation results using:
 | Metric               | Description |
 |----------------------|-------------|
 | L2 Errors          | Compare quantum vs classical u(x,t) |
-| Shock Position     | \( x \) where \( u \approx 0.5 \) |
-| Dissipation Rate   | \( \nu \sum (\partial_x u)^2 \cdot dx \) |
+| Shock Position     | $\( x \) where \( u \approx 0.5 \)$ |
+| Dissipation Rate   | $\( \nu \sum (\partial_x u)^2 \cdot dx \)$ |
 | Circuit Complexity | Gate count, depth, Trotter steps |
 | ZNE Improvement    | Reduction in L2 error from extrapolated results |
 
