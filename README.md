@@ -16,7 +16,7 @@ $$
 
 with:
 - Boundary conditions:  
-  $$ u(0, t) = 1, \quad u(1, t) = 0 $$
+  $u(0, t) = 1$, $u(1, t) = 0$
 - Initial condition (smooth):  
   $ u(x, 0) = \sin(\pi x) $  
 > 💡 *Note: The original step function initial condition*
