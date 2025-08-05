@@ -19,7 +19,17 @@ with:
   $ u(0, t) = 1, \quad u(1, t) = 0 $
 - Initial condition (smooth):  
   $ u(x, 0) = \sin(\pi x) $  
-  *(Note: Step function initial condition $( u(x,0)=1 \text{ for } x<0.5, $, 0 \text{ otherwise} \) is specified in the challenge but smoothed here for better numerical performance)*
+> 💡 *Note: The original step function initial condition*
+> 
+> $$
+> u(x,0) = 
+> \begin{cases}
+> 1 & \text{if } x < 0.5 \\
+> 0 & \text{otherwise}
+> \end{cases}
+> $$
+>
+> *is smoothed here to avoid numerical instability.*
   
 ## 🔬 Methodology
 
