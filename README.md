@@ -37,11 +37,9 @@ We employ a **hybrid quantum-classical framework** that transforms the nonlinear
 
 ###  1. Cole–Hopf Transform  
 Linearizes Burgers’ equation to a **diffusion (heat) equation** using:
-$$
-u(x,t) = -2\nu \frac{\partial_x \psi}{\psi}
-$$
 
 $$
+u(x,t) = -2\nu \frac{\partial_x \psi}{\psi}
 \Rightarrow \partial_t \psi = \nu \, \partial_x^2 \psi
 $$
 
