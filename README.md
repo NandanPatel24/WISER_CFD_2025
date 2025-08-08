@@ -1,9 +1,9 @@
 # Quantum Simulation of the 1D Burgers’ Equation — WISER 2025
 
 ## Team Information:
-Team name: EntangledAngle
-Team members: Nandan Patel - Enrollement ID - gst-wM5uVX3ux7Ly44Y
-              Isshaan Singh  - Enrollment ID - gst-RarLsdWbYJyKeFe
+- Team name: EntangledAngle
+- Team members: Nandan Patel - Enrollement ID - gst-wM5uVX3ux7Ly44Y
+                Isshaan Singh  - Enrollment ID - gst-RarLsdWbYJyKeFe
 
 ## Overview
 
