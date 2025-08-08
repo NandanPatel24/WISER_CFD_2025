@@ -98,16 +98,21 @@ Visualization includes:
 ```bash
 WISER_CFD_2025/
 │
-├── README.md
-├── LICENSE
+├── README.md                                  # Project overview and documentation
+├── LICENSE                                    # License for use and distribution
 │
-├── Prototype_Code_WISER_CFD.ipynb
+├── Prototype_Code_WISER_CFD.ipynb             # Main prototype code for solving 1D Burgers' equation using quantum methods
 │
-├── Algo_Design_WISER_CFD.pdf
-├── Algo_Comparison_WISER_CFD.pdf
-├── Quantum_Hardware_Run_WISER_CFD.pdf
-├── Resource_and_Noise_Analysis_WISER_CFD.pdf
-├── Scalability_Study_WISER_CFD.pdf
-├── Validation_and_Benchmark_WISER_CFD.pdf
+├── Quantum Simulation of the 1D Burgers' Equation.pptx   # Final presentation deck used to summarize and pitch the project
+├── WISER_EntangledAngle(1) (1).mp4                   # Project demonstration video showing quantum entanglement behavior or results
+│
+├── Algo_Design_WISER_CFD.pdf                  # Detailed algorithmic design of the proposed quantum solvers
+├── Algo_Comparison_WISER_CFD.pdf              # Comparative study of QTN, HSE, and hybrid methods
+├── Quantum_Hardware_Run_WISER_CFD.pdf         # Results and observations from real quantum hardware runs
+├── Resource_and_Noise_Analysis_WISER_CFD.pdf  # Analysis of quantum resource requirements and noise effects
+├── Scalability_Study_WISER_CFD.pdf            # Study on how the methods scale with system size
+├── Validation_and_Benchmark_WISER_CFD.pdf     # Validation against classical solvers and benchmark results
+
+
 
 
