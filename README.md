@@ -103,7 +103,7 @@ WISER_CFD_2025/
 │
 ├── Prototype_Code_WISER_CFD.ipynb             # Main prototype code for solving 1D Burgers' equation using quantum methods
 │
-├── Quantum Simulation of the 1D Burgers' Equation.pptx   # Final presentation deck used to summarize and pitch the project
+├── Quantum Simulation of the 1D Burgers Equation.pptx   # Final presentation deck used to summarize and pitch the project
 ├── WISER_EntangledAngle(1) (1).mp4                   # Project demonstration video showing quantum entanglement behavior or results
 │
 ├── Algo_Design_WISER_CFD.pdf                  # Detailed algorithmic design of the proposed quantum solvers
