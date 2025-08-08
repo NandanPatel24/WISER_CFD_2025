@@ -82,6 +82,8 @@ Visualization includes:
 - **u(x, t) vs x** for 6 timesteps
 - **Circuit depth vs time**
 - **Dissipation rate curves**
+- **L2 Error curves**
+- **Shock front position curve**
 
 ## Tools & Libraries
 
