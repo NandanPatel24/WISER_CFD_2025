@@ -2,8 +2,8 @@
 
 ## Team Information:
 - Team name: EntangledAngle
-- Team members: Nandan Patel - Enrollement ID - gst-wM5uVX3ux7Ly44Y
-                Isshaan Singh  - Enrollment ID - gst-RarLsdWbYJyKeFe
+- Team members: - Nandan Patel - Enrollment ID - gst-wM5uVX3ux7Ly44Y
+                - Isshaan Singh  - Enrollment ID - gst-RarLsdWbYJyKeFe
 
 ## Overview
 
