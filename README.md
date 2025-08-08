@@ -1,5 +1,10 @@
 # Quantum Simulation of the 1D Burgers’ Equation — WISER 2025
 
+## Team Information:
+Team name: EntangledAngle
+Team members: Nandan Patel - Enrollement ID - gst-wM5uVX3ux7Ly44Y
+              Isshaan Singh  - Enrollment ID - gst-RarLsdWbYJyKeFe
+
 ## Overview
 
 This repository contains our final submission for the **Womanium WISER 2025 Program**, focused on **hybrid quantum-classical simulation of nonlinear fluid dynamics**. We solve the **1D viscous Burgers’ equation**, a fundamental nonlinear PDE modeling shock waves and turbulence, using a quantum-enhanced algorithm built for current noisy quantum hardware.
